@@ -1,4 +1,4 @@
-# 一级标题
+# 一级标题，GFM 语法
 ## 二级标题
 ### 三级标题
 #### 四级标题
@@ -9,5 +9,40 @@
 
 行尾使用\<br>然后回车，回车效果<br>
 
-hello, 大家好，我是`Jack`.使用\`Jack\`高亮显示效果<br/>
+hello, 大家好，我是`Jack`.使用\`Jack\`高亮显示效果，注意 \` 是英文输入法输入的<br/>
+
+插入超级链接用例， 注意中括号、小括号、引号都是英文输入法下面输入的 [我的博库](http://blog.sina.com "设置鼠标悬浮显示") <br/>
+
+##### 插入图标行首用\*，注意\*符号是英文输入法输入<br>
+* 圆点图标，注意文字与前面的图标间有个空格才能正确显示<br>
+    * 二级圆点图标，行首加一个tab<br>
+        * 三级圆点图标，行首加加两个tab<br>
+        
+##### 缩进行首用\>，注意\>符号是英文输入法输入<br>
+>一级缩进<br>
+>>二级缩进<br>
+>>>三级缩进<br>
+>>>>四级缩进<br>
+>>>>>五级缩进<br>
+
+##### 插入图片，即 叹号! + 方括号[ ] + 括号( ) 其中括号里是图片的URL<br>
+![baidu](http://www.baidu.com/img/bdlogo.gif) <br>
+
+##### 插入代码片段<br>
+```Java
+public static void main(String[]args){} //Java
+```
+```C
+int main(int argc, char *argv[]) //C
+```
+```Bash
+echo "hello GitHub" #Bash
+```
+```Javascript
+document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+```
+```C++
+string &operator+(const string& A,const string& B) //cpp
+```
+
 
